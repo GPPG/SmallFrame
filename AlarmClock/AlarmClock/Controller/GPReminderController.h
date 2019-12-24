@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  GPReminderController.h
 //  AlarmClock
 //
 //  Created by 郭鹏 on 2019/12/23.
@@ -8,11 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
-
+@interface GPReminderController : UIViewController
 
 
 
 @end
 
+NS_ASSUME_NONNULL_END

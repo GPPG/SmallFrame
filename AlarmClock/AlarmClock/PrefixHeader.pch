@@ -1,0 +1,35 @@
+//
+//  PrefixHeader.pch
+//  AlarmClock
+//
+//  Created by 郭鹏 on 2019/12/23.
+//  Copyright © 2019 郭鹏. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+
+#define color(rgbValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+#define colorHex(color)         [UIColor colorWithHexString:color]
+#define colorHexAlpha(color, a) [UIColor colorWithHexString:color alpha:a]
+
+#define sfBold(x)         [UIFont sfProDisplayBoldFontWithSize:x]
+#define sfBoldDP(x)       [UIFont sfProDisplayBoldFontWithSize:valueWithScale(x)]
+#define sfMedium(x)       [UIFont sfProDisplayMediumFontWithSize:x]
+#define sfMediumDP(x)     [UIFont sfProDisplayMediumFontWithSize:valueWithScale(x)]
+#define sfRegular(x)      [UIFont sfProDisplayRegularFontWithSize:x]
+#define sfRegularDP(x)    [UIFont sfProDisplayRegularFontWithSize:valueWithScale(x)]
+#define sfBoldI(x)        [UIFont sfProDisplayBoldItalicFontWithSize:x]
+#define sfBoldIDP(x)      [UIFont sfProDisplayBoldItalicFontWithSize:valueWithScale(x)]
+#define sfSemiBoldI(x)    [UIFont sfProDisplaySemiBoldItalicFontWithSize:x]
+#define sfSemiBoldIDP(x)  [UIFont sfProDisplaySemiBoldItalicFontWithSize:valueWithScale(x)]
+#define sfExtraBoldI(x)   [UIFont sfProDisplayExtraBoldItalicFontWithSize:x]
+#define sfExtraBoldIDP(x) [UIFont sfProDisplayExtraBoldItalicFontWithSize:valueWithScale(x)]
+
+
+#import <Masonry/Masonry.h>
+#import "UIFont+FITFactory.h"
+#import <YYModel/YYModel.h>
+
+#endif /* PrefixHeader_pch */

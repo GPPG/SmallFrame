@@ -3,25 +3,77 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D217F43B15459DA4E65946B8 /* Pods_AlarmClock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A9C9597E6C5D3EC75D2F986 /* Pods_AlarmClock.framework */; };
+		E0BB226323B0A7CF00A6980E /* GPReminderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB226223B0A7CF00A6980E /* GPReminderController.m */; };
+		E0BB226623B0A7E600A6980E /* GPSetReminderController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB226523B0A7E600A6980E /* GPSetReminderController.m */; };
+		E0BB226B23B0B15200A6980E /* UIFont+FITFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB226A23B0B15200A6980E /* UIFont+FITFactory.m */; };
+		E0BB227323B0B17F00A6980E /* FiraSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0BB226D23B0B17E00A6980E /* FiraSans-Bold.ttf */; };
+		E0BB227423B0B17F00A6980E /* FiraSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0BB226E23B0B17E00A6980E /* FiraSans-Regular.ttf */; };
+		E0BB227523B0B17F00A6980E /* FiraSans-SemiBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0BB226F23B0B17E00A6980E /* FiraSans-SemiBoldItalic.ttf */; };
+		E0BB227623B0B17F00A6980E /* FiraSans-ExtraBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0BB227023B0B17F00A6980E /* FiraSans-ExtraBoldItalic.ttf */; };
+		E0BB227723B0B17F00A6980E /* FiraSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0BB227123B0B17F00A6980E /* FiraSans-BoldItalic.ttf */; };
+		E0BB227823B0B17F00A6980E /* FiraSans-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E0BB227223B0B17F00A6980E /* FiraSans-Medium.ttf */; };
+		E0BB22AB23B0B7AB00A6980E /* NSDate+JKUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB22AA23B0B7AB00A6980E /* NSDate+JKUtilities.m */; };
+		E0BB22B323B0C0DB00A6980E /* FITLocalPushMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB22AE23B0C0DB00A6980E /* FITLocalPushMode.m */; };
+		E0BB22B423B0C0DB00A6980E /* FITLocalPushManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB22B023B0C0DB00A6980E /* FITLocalPushManger.m */; };
+		E0BB22B523B0C0DB00A6980E /* FITLocalNotificationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB22B223B0C0DB00A6980E /* FITLocalNotificationTool.m */; };
+		E0BB22C123B1ACCF00A6980E /* FITAlarmTitleTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB22B823B1ACCF00A6980E /* FITAlarmTitleTool.m */; };
+		E0BB22C223B1ACCF00A6980E /* FITSaveLocalPushModeTool.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB22BB23B1ACCF00A6980E /* FITSaveLocalPushModeTool.m */; };
+		E0BB22C323B1ACCF00A6980E /* FITSaveLocalPushMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB22BD23B1ACCF00A6980E /* FITSaveLocalPushMode.m */; };
+		E0BB22C423B1ACCF00A6980E /* FITSaveLocalPushModeManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB22BE23B1ACCF00A6980E /* FITSaveLocalPushModeManger.m */; };
+		E0BB22C823B1ACE900A6980E /* FITAlarmGlobalViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB22C623B1ACE900A6980E /* FITAlarmGlobalViewState.m */; };
 		E0F92B0923B09F4E00295EE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B0823B09F4E00295EE5 /* AppDelegate.m */; };
 		E0F92B0C23B09F4E00295EE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B0B23B09F4E00295EE5 /* ViewController.m */; };
-		E0F92B0F23B09F4E00295EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F92B0D23B09F4E00295EE5 /* Main.storyboard */; };
 		E0F92B1123B09F4F00295EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0F92B1023B09F4F00295EE5 /* Assets.xcassets */; };
 		E0F92B1423B09F4F00295EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F92B1223B09F4F00295EE5 /* LaunchScreen.storyboard */; };
 		E0F92B1723B09F4F00295EE5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B1623B09F4F00295EE5 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A9C9597E6C5D3EC75D2F986 /* Pods_AlarmClock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlarmClock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A1953CC470167A19876D0E9 /* Pods-AlarmClock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlarmClock.release.xcconfig"; path = "Target Support Files/Pods-AlarmClock/Pods-AlarmClock.release.xcconfig"; sourceTree = "<group>"; };
+		9849F86648791B12C4CA9BA2 /* Pods-AlarmClock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlarmClock.debug.xcconfig"; path = "Target Support Files/Pods-AlarmClock/Pods-AlarmClock.debug.xcconfig"; sourceTree = "<group>"; };
+		E0BB226123B0A7CF00A6980E /* GPReminderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPReminderController.h; sourceTree = "<group>"; };
+		E0BB226223B0A7CF00A6980E /* GPReminderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPReminderController.m; sourceTree = "<group>"; };
+		E0BB226423B0A7E600A6980E /* GPSetReminderController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPSetReminderController.h; sourceTree = "<group>"; };
+		E0BB226523B0A7E600A6980E /* GPSetReminderController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPSetReminderController.m; sourceTree = "<group>"; };
+		E0BB226723B0AD1C00A6980E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E0BB226923B0B15200A6980E /* UIFont+FITFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+FITFactory.h"; sourceTree = "<group>"; };
+		E0BB226A23B0B15200A6980E /* UIFont+FITFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+FITFactory.m"; sourceTree = "<group>"; };
+		E0BB226D23B0B17E00A6980E /* FiraSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Bold.ttf"; sourceTree = "<group>"; };
+		E0BB226E23B0B17E00A6980E /* FiraSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Regular.ttf"; sourceTree = "<group>"; };
+		E0BB226F23B0B17E00A6980E /* FiraSans-SemiBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-SemiBoldItalic.ttf"; sourceTree = "<group>"; };
+		E0BB227023B0B17F00A6980E /* FiraSans-ExtraBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-ExtraBoldItalic.ttf"; sourceTree = "<group>"; };
+		E0BB227123B0B17F00A6980E /* FiraSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		E0BB227223B0B17F00A6980E /* FiraSans-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "FiraSans-Medium.ttf"; sourceTree = "<group>"; };
+		E0BB22A923B0B7AA00A6980E /* NSDate+JKUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JKUtilities.h"; sourceTree = "<group>"; };
+		E0BB22AA23B0B7AB00A6980E /* NSDate+JKUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JKUtilities.m"; sourceTree = "<group>"; };
+		E0BB22AD23B0C0DA00A6980E /* FITLocalPushManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FITLocalPushManger.h; sourceTree = "<group>"; };
+		E0BB22AE23B0C0DB00A6980E /* FITLocalPushMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FITLocalPushMode.m; sourceTree = "<group>"; };
+		E0BB22AF23B0C0DB00A6980E /* FITLocalPushMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FITLocalPushMode.h; sourceTree = "<group>"; };
+		E0BB22B023B0C0DB00A6980E /* FITLocalPushManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FITLocalPushManger.m; sourceTree = "<group>"; };
+		E0BB22B123B0C0DB00A6980E /* FITLocalNotificationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FITLocalNotificationTool.h; sourceTree = "<group>"; };
+		E0BB22B223B0C0DB00A6980E /* FITLocalNotificationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FITLocalNotificationTool.m; sourceTree = "<group>"; };
+		E0BB22B823B1ACCF00A6980E /* FITAlarmTitleTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FITAlarmTitleTool.m; sourceTree = "<group>"; };
+		E0BB22B923B1ACCF00A6980E /* FITSaveLocalPushMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FITSaveLocalPushMode.h; sourceTree = "<group>"; };
+		E0BB22BA23B1ACCF00A6980E /* FITSaveLocalPushModeManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FITSaveLocalPushModeManger.h; sourceTree = "<group>"; };
+		E0BB22BB23B1ACCF00A6980E /* FITSaveLocalPushModeTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FITSaveLocalPushModeTool.m; sourceTree = "<group>"; };
+		E0BB22BC23B1ACCF00A6980E /* FITAlarmTitleTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FITAlarmTitleTool.h; sourceTree = "<group>"; };
+		E0BB22BD23B1ACCF00A6980E /* FITSaveLocalPushMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FITSaveLocalPushMode.m; sourceTree = "<group>"; };
+		E0BB22BE23B1ACCF00A6980E /* FITSaveLocalPushModeManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FITSaveLocalPushModeManger.m; sourceTree = "<group>"; };
+		E0BB22BF23B1ACCF00A6980E /* FITSaveLocalPushModeTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FITSaveLocalPushModeTool.h; sourceTree = "<group>"; };
+		E0BB22C023B1ACCF00A6980E /* FITLocalNotificationProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FITLocalNotificationProtocol.h; sourceTree = "<group>"; };
+		E0BB22C623B1ACE900A6980E /* FITAlarmGlobalViewState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FITAlarmGlobalViewState.m; sourceTree = "<group>"; };
+		E0BB22C723B1ACE900A6980E /* FITAlarmGlobalViewState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FITAlarmGlobalViewState.h; sourceTree = "<group>"; };
 		E0F92B0423B09F4E00295EE5 /* AlarmClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlarmClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F92B0723B09F4E00295EE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0F92B0823B09F4E00295EE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E0F92B0A23B09F4E00295EE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		E0F92B0B23B09F4E00295EE5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		E0F92B0E23B09F4E00295EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0F92B1023B09F4F00295EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0F92B1323B09F4F00295EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0F92B1523B09F4F00295EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,17 +85,99 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D217F43B15459DA4E65946B8 /* Pods_AlarmClock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9E007808697105D0228D23B5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A9C9597E6C5D3EC75D2F986 /* Pods_AlarmClock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0BB226823B0AF7600A6980E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB22A923B0B7AA00A6980E /* NSDate+JKUtilities.h */,
+				E0BB22AA23B0B7AB00A6980E /* NSDate+JKUtilities.m */,
+				E0BB226923B0B15200A6980E /* UIFont+FITFactory.h */,
+				E0BB226A23B0B15200A6980E /* UIFont+FITFactory.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E0BB226C23B0B16B00A6980E /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB226D23B0B17E00A6980E /* FiraSans-Bold.ttf */,
+				E0BB227123B0B17F00A6980E /* FiraSans-BoldItalic.ttf */,
+				E0BB227023B0B17F00A6980E /* FiraSans-ExtraBoldItalic.ttf */,
+				E0BB227223B0B17F00A6980E /* FiraSans-Medium.ttf */,
+				E0BB226E23B0B17E00A6980E /* FiraSans-Regular.ttf */,
+				E0BB226F23B0B17E00A6980E /* FiraSans-SemiBoldItalic.ttf */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		E0BB22AC23B0C0C500A6980E /* PushManger */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB22B123B0C0DB00A6980E /* FITLocalNotificationTool.h */,
+				E0BB22B223B0C0DB00A6980E /* FITLocalNotificationTool.m */,
+				E0BB22AD23B0C0DA00A6980E /* FITLocalPushManger.h */,
+				E0BB22B023B0C0DB00A6980E /* FITLocalPushManger.m */,
+				E0BB22AF23B0C0DB00A6980E /* FITLocalPushMode.h */,
+				E0BB22AE23B0C0DB00A6980E /* FITLocalPushMode.m */,
+			);
+			path = PushManger;
+			sourceTree = "<group>";
+		};
+		E0BB22B623B1ACCF00A6980E /* SaveManger */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB22C523B1ACE900A6980E /* ViewStatus */,
+				E0BB22B723B1ACCF00A6980E /* Reminder */,
+				E0BB22C023B1ACCF00A6980E /* FITLocalNotificationProtocol.h */,
+			);
+			path = SaveManger;
+			sourceTree = "<group>";
+		};
+		E0BB22B723B1ACCF00A6980E /* Reminder */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB22B823B1ACCF00A6980E /* FITAlarmTitleTool.m */,
+				E0BB22B923B1ACCF00A6980E /* FITSaveLocalPushMode.h */,
+				E0BB22BA23B1ACCF00A6980E /* FITSaveLocalPushModeManger.h */,
+				E0BB22BB23B1ACCF00A6980E /* FITSaveLocalPushModeTool.m */,
+				E0BB22BC23B1ACCF00A6980E /* FITAlarmTitleTool.h */,
+				E0BB22BD23B1ACCF00A6980E /* FITSaveLocalPushMode.m */,
+				E0BB22BE23B1ACCF00A6980E /* FITSaveLocalPushModeManger.m */,
+				E0BB22BF23B1ACCF00A6980E /* FITSaveLocalPushModeTool.h */,
+			);
+			path = Reminder;
+			sourceTree = "<group>";
+		};
+		E0BB22C523B1ACE900A6980E /* ViewStatus */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB22C623B1ACE900A6980E /* FITAlarmGlobalViewState.m */,
+				E0BB22C723B1ACE900A6980E /* FITAlarmGlobalViewState.h */,
+			);
+			path = ViewStatus;
+			sourceTree = "<group>";
+		};
 		E0F92AFB23B09F4E00295EE5 = {
 			isa = PBXGroup;
 			children = (
 				E0F92B0623B09F4E00295EE5 /* AlarmClock */,
 				E0F92B0523B09F4E00295EE5 /* Products */,
+				E57DBDBA7EAFC70B5251C7FC /* Pods */,
+				9E007808697105D0228D23B5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,17 +192,74 @@
 		E0F92B0623B09F4E00295EE5 /* AlarmClock */ = {
 			isa = PBXGroup;
 			children = (
+				E0F92B2123B0A39500295EE5 /* Manger */,
+				E0F92B2023B0A32400295EE5 /* ViewStatus */,
+				E0F92B1F23B0A2C800295EE5 /* Mode */,
+				E0F92B1E23B0A2C000295EE5 /* View */,
+				E0F92B1D23B0A29600295EE5 /* Controller */,
+				E0BB226823B0AF7600A6980E /* Category */,
 				E0F92B0723B09F4E00295EE5 /* AppDelegate.h */,
 				E0F92B0823B09F4E00295EE5 /* AppDelegate.m */,
 				E0F92B0A23B09F4E00295EE5 /* ViewController.h */,
 				E0F92B0B23B09F4E00295EE5 /* ViewController.m */,
-				E0F92B0D23B09F4E00295EE5 /* Main.storyboard */,
 				E0F92B1023B09F4F00295EE5 /* Assets.xcassets */,
 				E0F92B1223B09F4F00295EE5 /* LaunchScreen.storyboard */,
 				E0F92B1523B09F4F00295EE5 /* Info.plist */,
 				E0F92B1623B09F4F00295EE5 /* main.m */,
+				E0BB226723B0AD1C00A6980E /* PrefixHeader.pch */,
+				E0BB226C23B0B16B00A6980E /* Support */,
 			);
 			path = AlarmClock;
+			sourceTree = "<group>";
+		};
+		E0F92B1D23B0A29600295EE5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB226123B0A7CF00A6980E /* GPReminderController.h */,
+				E0BB226223B0A7CF00A6980E /* GPReminderController.m */,
+				E0BB226423B0A7E600A6980E /* GPSetReminderController.h */,
+				E0BB226523B0A7E600A6980E /* GPSetReminderController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0F92B1E23B0A2C000295EE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0F92B1F23B0A2C800295EE5 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		E0F92B2023B0A32400295EE5 /* ViewStatus */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewStatus;
+			sourceTree = "<group>";
+		};
+		E0F92B2123B0A39500295EE5 /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB22B623B1ACCF00A6980E /* SaveManger */,
+				E0BB22AC23B0C0C500A6980E /* PushManger */,
+			);
+			path = Manger;
+			sourceTree = "<group>";
+		};
+		E57DBDBA7EAFC70B5251C7FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9849F86648791B12C4CA9BA2 /* Pods-AlarmClock.debug.xcconfig */,
+				5A1953CC470167A19876D0E9 /* Pods-AlarmClock.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -78,9 +269,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0F92B1A23B09F4F00295EE5 /* Build configuration list for PBXNativeTarget "AlarmClock" */;
 			buildPhases = (
+				5879B77F361BE8B84A2855EE /* [CP] Check Pods Manifest.lock */,
 				E0F92B0023B09F4E00295EE5 /* Sources */,
 				E0F92B0123B09F4E00295EE5 /* Frameworks */,
 				E0F92B0223B09F4E00295EE5 /* Resources */,
+				B9F2E6E182E71C29C8C9424E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -97,6 +290,7 @@
 		E0F92AFC23B09F4E00295EE5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GP;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "郭鹏";
 				TargetAttributes = {
@@ -128,36 +322,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0BB227323B0B17F00A6980E /* FiraSans-Bold.ttf in Resources */,
+				E0BB227723B0B17F00A6980E /* FiraSans-BoldItalic.ttf in Resources */,
+				E0BB227523B0B17F00A6980E /* FiraSans-SemiBoldItalic.ttf in Resources */,
 				E0F92B1423B09F4F00295EE5 /* LaunchScreen.storyboard in Resources */,
+				E0BB227823B0B17F00A6980E /* FiraSans-Medium.ttf in Resources */,
+				E0BB227423B0B17F00A6980E /* FiraSans-Regular.ttf in Resources */,
 				E0F92B1123B09F4F00295EE5 /* Assets.xcassets in Resources */,
-				E0F92B0F23B09F4E00295EE5 /* Main.storyboard in Resources */,
+				E0BB227623B0B17F00A6980E /* FiraSans-ExtraBoldItalic.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5879B77F361BE8B84A2855EE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlarmClock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9F2E6E182E71C29C8C9424E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlarmClock/Pods-AlarmClock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlarmClock/Pods-AlarmClock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlarmClock/Pods-AlarmClock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0F92B0023B09F4E00295EE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0BB22B323B0C0DB00A6980E /* FITLocalPushMode.m in Sources */,
 				E0F92B0C23B09F4E00295EE5 /* ViewController.m in Sources */,
 				E0F92B1723B09F4F00295EE5 /* main.m in Sources */,
+				E0BB22C323B1ACCF00A6980E /* FITSaveLocalPushMode.m in Sources */,
+				E0BB22C123B1ACCF00A6980E /* FITAlarmTitleTool.m in Sources */,
+				E0BB226623B0A7E600A6980E /* GPSetReminderController.m in Sources */,
+				E0BB22B423B0C0DB00A6980E /* FITLocalPushManger.m in Sources */,
+				E0BB22C423B1ACCF00A6980E /* FITSaveLocalPushModeManger.m in Sources */,
+				E0BB226323B0A7CF00A6980E /* GPReminderController.m in Sources */,
 				E0F92B0923B09F4E00295EE5 /* AppDelegate.m in Sources */,
+				E0BB22AB23B0B7AB00A6980E /* NSDate+JKUtilities.m in Sources */,
+				E0BB22C223B1ACCF00A6980E /* FITSaveLocalPushModeTool.m in Sources */,
+				E0BB22B523B0C0DB00A6980E /* FITLocalNotificationTool.m in Sources */,
+				E0BB22C823B1ACE900A6980E /* FITAlarmGlobalViewState.m in Sources */,
+				E0BB226B23B0B15200A6980E /* UIFont+FITFactory.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E0F92B0D23B09F4E00295EE5 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E0F92B0E23B09F4E00295EE5 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E0F92B1223B09F4F00295EE5 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,9 +528,13 @@
 		};
 		E0F92B1B23B09F4F00295EE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9849F86648791B12C4CA9BA2 /* Pods-AlarmClock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AlarmClock/PrefixHeader.pch;
 				INFOPLIST_FILE = AlarmClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,9 +548,13 @@
 		};
 		E0F92B1C23B09F4F00295EE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A1953CC470167A19876D0E9 /* Pods-AlarmClock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AlarmClock/PrefixHeader.pch;
 				INFOPLIST_FILE = AlarmClock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
