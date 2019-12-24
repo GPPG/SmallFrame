@@ -46,7 +46,6 @@
         
         [FITLocalPushManger addLocalNotificationS:localArray];
         
-        [ws statisticalSave];
         
         [[NSNotificationCenter defaultCenter]postNotificationName:FITFITWorkoutReminderControllerDismiss object:nil];
         
@@ -74,31 +73,6 @@
     [self.savePushManger addLocalNotificationS:array];
 }
 
-#pragma mark - 统计
-- (void)statisticalSave{
-    
-    NSString *weekStr = @"Su,Mo,Tu,We,Th,Fr,Sa";
-    
-    NSInteger hourInt = 19;
-    
-    NSInteger minInt = 0;
-    
-    NSString *hourStr;
-    NSString *timeStr;
-    
-    if (hourInt < 10) {
-        hourStr = [NSString stringWithFormat:@"0%ld",hourInt];
-    }else{
-        hourStr = [NSString stringWithFormat:@"%ld",hourInt];
-        
-    }
-    if (minInt < 10) {
-        timeStr = [NSString stringWithFormat:@"%@:0%ld",hourStr,(long)minInt];
-    }else{
-        timeStr = [NSString stringWithFormat:@"%@:%ld",hourStr,(long)minInt];
-    }
-    
-}
 
 #pragma mark - public
 

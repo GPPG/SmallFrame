@@ -119,7 +119,7 @@
         _topHintLabel = [[UILabel alloc]init];
         _topHintLabel.textAlignment = NSTextAlignmentCenter;
         _topHintLabel.font = [UIFont sfProDisplayBoldFontWithSize:18];
-        [_topHintLabel setText:NSLocalizedString(@"No Reminders!",nil)];
+        [_topHintLabel setText:@"没有闹钟"];
         [_topHintLabel setTextColor:[UIColor colorWithHexString:@"#424242"]];
         [self.centerView addSubview:_topHintLabel];
         
@@ -133,7 +133,7 @@
         _bottomHintlabel = [[UILabel alloc]init];
         _bottomHintlabel.textAlignment = NSTextAlignmentCenter;
         _bottomHintlabel.font = [UIFont sfProDisplayRegularFontWithSize:16];
-        [_bottomHintlabel setText:NSLocalizedString(@"A good figure belongs to the persevering.",nil)];
+        [_bottomHintlabel setText:@"赶快去设置一个闹钟吧"];
         [_bottomHintlabel setTextColor:[UIColor colorWithHexString:@"#aaaaaa"]];
         [self.centerView addSubview:_bottomHintlabel];
         
@@ -145,7 +145,7 @@
 {
     if (!_setBtn) {
         _setBtn = [[UIButton alloc]init];
-        [_setBtn setTitle:NSLocalizedString(@"Set Reminder",nil) forState:UIControlStateNormal];
+        [_setBtn setTitle:@"设置闹钟" forState:UIControlStateNormal];
         [_setBtn setTitleColor:[UIColor colorWithHexString:@"#ffffff"] forState:UIControlStateNormal];
         _setBtn.titleLabel.font = [UIFont sfProDisplayBoldFontWithSize:17];
         _setBtn.backgroundColor = [UIColor colorWithRed:0.15 green:0.88 blue:0.56 alpha:1.00];
