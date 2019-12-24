@@ -56,5 +56,27 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark - 通知
+// 注册通知
+- (void)application:(UIApplication *)application didRegisterUserNotificationSettings:(UIUserNotificationSettings *)notificationSettings{
+    if (notificationSettings.types!=UIUserNotificationTypeNone) {
+        
+
+        [[NSUserDefaults standardUserDefaults] setInteger:LocalNotificationSucceedState forKey:@"RegisterUserNotificationSettings"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+        [[NSNotificationCenter defaultCenter]postNotificationName:FITRegisterUserNotificationSettingsSuccessful object:nil];
+
+    }else{
+        
+
+        [[NSUserDefaults standardUserDefaults] setInteger:LocalNotificationFailState forKey:@"RegisterUserNotificationSettings"];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+        [[NSNotificationCenter defaultCenter]postNotificationName:FITRegisterUserNotificationSettingsFailure object:nil];
+
+        NSLog(@"没有权限");
+    }
+}
 
 @end

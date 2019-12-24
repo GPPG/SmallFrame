@@ -7,6 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "FITSaveLocalPushModeManger.h"
+#import "FITReminderSubData.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -29,7 +32,9 @@ typedef void(^SaveActionBlock)(void);
 
 @property (nonatomic, copy) CancelActionBlock cancelActionBlock;
 
+@property (nonatomic, strong) FITSaveLocalPushModeManger *savePushManger;
 
+@property (nonatomic, strong) FITReminderSubData *reminderSubData;
 
 
 @end
