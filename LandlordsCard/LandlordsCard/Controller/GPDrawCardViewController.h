@@ -7,10 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TATarotReadinDrawModeManger.h"
+#import "TATarReadingDrawContentMode.h"
+
 
 NS_ASSUME_NONNULL_BEGIN
 
+typedef void(^CardFinishBlock)(UIImage *cardImage);
+
 @interface GPDrawCardViewController : UIViewController
+
+@property (nonatomic, assign) TarotReadingType tarotReadingType;
+
+@property (nonatomic, copy) CardFinishBlock cardFinishBlock;
+
+@property (nonatomic, strong) TATarReadingDrawContentMode *cardContentMode;
 
 @end
 

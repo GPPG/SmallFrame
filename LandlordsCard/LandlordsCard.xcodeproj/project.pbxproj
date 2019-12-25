@@ -15,6 +15,23 @@
 		E0BB235E23B3019000A6980E /* TATarotReadinDrawModeManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB235A23B3019000A6980E /* TATarotReadinDrawModeManger.m */; };
 		E0BB235F23B3019000A6980E /* TATarotReadingDrawMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB235B23B3019000A6980E /* TATarotReadingDrawMode.m */; };
 		E0BB236223B3043900A6980E /* TADrawLocationMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB236023B3043900A6980E /* TADrawLocationMode.m */; };
+		E0BB236523B3078100A6980E /* TATarotReadingShowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB236423B3078000A6980E /* TATarotReadingShowView.m */; };
+		E0BB236823B3078D00A6980E /* TATarotReadingCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB236623B3078C00A6980E /* TATarotReadingCardView.m */; };
+		E0BB238023B307A600A6980E /* TADrawCardView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB236A23B307A600A6980E /* TADrawCardView.m */; };
+		E0BB238123B307A600A6980E /* TADrawCardCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB236C23B307A600A6980E /* TADrawCardCollectionView.m */; };
+		E0BB238223B307A600A6980E /* TATarotView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB236F23B307A600A6980E /* TATarotView.m */; };
+		E0BB238323B307A600A6980E /* TAShuffleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB237123B307A600A6980E /* TAShuffleView.m */; };
+		E0BB238623B307A600A6980E /* TACardRippleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB237723B307A600A6980E /* TACardRippleView.m */; };
+		E0BB238823B307A600A6980E /* TADarwCardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB237D23B307A600A6980E /* TADarwCardCollectionViewCell.m */; };
+		E0BB238923B307A600A6980E /* TADrawCardArrowView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB237F23B307A600A6980E /* TADrawCardArrowView.m */; };
+		E0BB238D23B30A6700A6980E /* UIView+LayoutMethods.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB238C23B30A6700A6980E /* UIView+LayoutMethods.m */; };
+		E0BB239023B30B3200A6980E /* UIColor+Hex.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB238F23B30B3200A6980E /* UIColor+Hex.m */; };
+		E0BB239323B32D5200A6980E /* HImageUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB239123B32D5200A6980E /* HImageUtility.m */; };
+		E0BB239923B32DB100A6980E /* UIView+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB239623B32DB100A6980E /* UIView+Animation.m */; };
+		E0BB239A23B32DB100A6980E /* Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB239723B32DB100A6980E /* Animation.m */; };
+		E0BB239E23B32FC100A6980E /* UIView+AnimationExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB239D23B32FC100A6980E /* UIView+AnimationExtension.m */; };
+		E0BB23A123B3303300A6980E /* UIImage+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23A023B3303300A6980E /* UIImage+Clip.m */; };
+		E0BB23A523B3305C00A6980E /* NSString+StringSize.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23A323B3305C00A6980E /* NSString+StringSize.m */; };
 		E0F92B3023B1EB1600295EE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B2F23B1EB1600295EE5 /* AppDelegate.m */; };
 		E0F92B3323B1EB1600295EE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B3223B1EB1600295EE5 /* ViewController.m */; };
 		E0F92B3623B1EB1600295EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F92B3423B1EB1600295EE5 /* Main.storyboard */; };
@@ -41,6 +58,42 @@
 		E0BB235C23B3019000A6980E /* TATarotReadingDrawMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATarotReadingDrawMode.h; sourceTree = "<group>"; };
 		E0BB236023B3043900A6980E /* TADrawLocationMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADrawLocationMode.m; sourceTree = "<group>"; };
 		E0BB236123B3043900A6980E /* TADrawLocationMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADrawLocationMode.h; sourceTree = "<group>"; };
+		E0BB236323B3078000A6980E /* TATarotReadingShowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATarotReadingShowView.h; sourceTree = "<group>"; };
+		E0BB236423B3078000A6980E /* TATarotReadingShowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATarotReadingShowView.m; sourceTree = "<group>"; };
+		E0BB236623B3078C00A6980E /* TATarotReadingCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATarotReadingCardView.m; sourceTree = "<group>"; };
+		E0BB236723B3078D00A6980E /* TATarotReadingCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATarotReadingCardView.h; sourceTree = "<group>"; };
+		E0BB236A23B307A600A6980E /* TADrawCardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADrawCardView.m; sourceTree = "<group>"; };
+		E0BB236B23B307A600A6980E /* TADarwCardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADarwCardCollectionViewCell.h; sourceTree = "<group>"; };
+		E0BB236C23B307A600A6980E /* TADrawCardCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADrawCardCollectionView.m; sourceTree = "<group>"; };
+		E0BB236D23B307A600A6980E /* TADrawCardArrowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADrawCardArrowView.h; sourceTree = "<group>"; };
+		E0BB236F23B307A600A6980E /* TATarotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATarotView.m; sourceTree = "<group>"; };
+		E0BB237023B307A600A6980E /* TAShuffleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAShuffleView.h; sourceTree = "<group>"; };
+		E0BB237123B307A600A6980E /* TAShuffleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAShuffleView.m; sourceTree = "<group>"; };
+		E0BB237223B307A600A6980E /* TATarotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATarotView.h; sourceTree = "<group>"; };
+		E0BB237723B307A600A6980E /* TACardRippleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TACardRippleView.m; sourceTree = "<group>"; };
+		E0BB237A23B307A600A6980E /* TACardRippleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TACardRippleView.h; sourceTree = "<group>"; };
+		E0BB237C23B307A600A6980E /* TADrawCardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADrawCardView.h; sourceTree = "<group>"; };
+		E0BB237D23B307A600A6980E /* TADarwCardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADarwCardCollectionViewCell.m; sourceTree = "<group>"; };
+		E0BB237E23B307A600A6980E /* TADrawCardCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADrawCardCollectionView.h; sourceTree = "<group>"; };
+		E0BB237F23B307A600A6980E /* TADrawCardArrowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADrawCardArrowView.m; sourceTree = "<group>"; };
+		E0BB238B23B30A6700A6980E /* UIView+LayoutMethods.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+LayoutMethods.h"; sourceTree = "<group>"; };
+		E0BB238C23B30A6700A6980E /* UIView+LayoutMethods.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+LayoutMethods.m"; sourceTree = "<group>"; };
+		E0BB238E23B30B3100A6980E /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		E0BB238F23B30B3200A6980E /* UIColor+Hex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Hex.m"; sourceTree = "<group>"; };
+		E0BB239123B32D5200A6980E /* HImageUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HImageUtility.m; sourceTree = "<group>"; };
+		E0BB239223B32D5200A6980E /* HImageUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HImageUtility.h; sourceTree = "<group>"; };
+		E0BB239523B32DB100A6980E /* Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Animation.h; sourceTree = "<group>"; };
+		E0BB239623B32DB100A6980E /* UIView+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Animation.m"; sourceTree = "<group>"; };
+		E0BB239723B32DB100A6980E /* Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Animation.m; sourceTree = "<group>"; };
+		E0BB239823B32DB100A6980E /* UIView+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Animation.h"; sourceTree = "<group>"; };
+		E0BB239B23B32E8000A6980E /* TatodayBaseConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TatodayBaseConfiguration.h; sourceTree = "<group>"; };
+		E0BB239C23B32FC100A6980E /* UIView+AnimationExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AnimationExtension.h"; sourceTree = "<group>"; };
+		E0BB239D23B32FC100A6980E /* UIView+AnimationExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AnimationExtension.m"; sourceTree = "<group>"; };
+		E0BB239F23B3303200A6980E /* UIImage+Clip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Clip.h"; sourceTree = "<group>"; };
+		E0BB23A023B3303300A6980E /* UIImage+Clip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Clip.m"; sourceTree = "<group>"; };
+		E0BB23A223B3304D00A6980E /* ColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtils.h; sourceTree = "<group>"; };
+		E0BB23A323B3305C00A6980E /* NSString+StringSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringSize.m"; sourceTree = "<group>"; };
+		E0BB23A423B3305C00A6980E /* NSString+StringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringSize.h"; sourceTree = "<group>"; };
 		E0F92B2B23B1EB1600295EE5 /* LandlordsCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandlordsCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F92B2E23B1EB1600295EE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0F92B2F23B1EB1600295EE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -87,6 +140,12 @@
 		E0BB234523B20BFC00A6980E /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E0BB236E23B307A600A6980E /* ShuffleAnimationView */,
+				E0BB236923B307A600A6980E /* DrawCardView */,
+				E0BB236723B3078D00A6980E /* TATarotReadingCardView.h */,
+				E0BB236623B3078C00A6980E /* TATarotReadingCardView.m */,
+				E0BB236323B3078000A6980E /* TATarotReadingShowView.h */,
+				E0BB236423B3078000A6980E /* TATarotReadingShowView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -125,6 +184,7 @@
 		E0BB234E23B2FD8100A6980E /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				E0BB239B23B32E8000A6980E /* TatodayBaseConfiguration.h */,
 				E0BB234F23B2FD8B00A6980E /* TATarotReading.h */,
 			);
 			path = Tool;
@@ -139,6 +199,66 @@
 				E0BB235423B2FEE400A6980E /* TADrawCardLayout.m */,
 			);
 			path = DarwCardLayout;
+			sourceTree = "<group>";
+		};
+		E0BB236923B307A600A6980E /* DrawCardView */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB237A23B307A600A6980E /* TACardRippleView.h */,
+				E0BB237723B307A600A6980E /* TACardRippleView.m */,
+				E0BB236B23B307A600A6980E /* TADarwCardCollectionViewCell.h */,
+				E0BB237D23B307A600A6980E /* TADarwCardCollectionViewCell.m */,
+				E0BB236D23B307A600A6980E /* TADrawCardArrowView.h */,
+				E0BB237F23B307A600A6980E /* TADrawCardArrowView.m */,
+				E0BB237E23B307A600A6980E /* TADrawCardCollectionView.h */,
+				E0BB236C23B307A600A6980E /* TADrawCardCollectionView.m */,
+				E0BB237C23B307A600A6980E /* TADrawCardView.h */,
+				E0BB236A23B307A600A6980E /* TADrawCardView.m */,
+			);
+			path = DrawCardView;
+			sourceTree = "<group>";
+		};
+		E0BB236E23B307A600A6980E /* ShuffleAnimationView */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB237023B307A600A6980E /* TAShuffleView.h */,
+				E0BB237123B307A600A6980E /* TAShuffleView.m */,
+				E0BB237223B307A600A6980E /* TATarotView.h */,
+				E0BB236F23B307A600A6980E /* TATarotView.m */,
+			);
+			path = ShuffleAnimationView;
+			sourceTree = "<group>";
+		};
+		E0BB238A23B30A4F00A6980E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB239423B32DB100A6980E /* animation */,
+				E0BB23A223B3304D00A6980E /* ColorUtils.h */,
+				E0BB239223B32D5200A6980E /* HImageUtility.h */,
+				E0BB239123B32D5200A6980E /* HImageUtility.m */,
+				E0BB23A423B3305C00A6980E /* NSString+StringSize.h */,
+				E0BB23A323B3305C00A6980E /* NSString+StringSize.m */,
+				E0BB238E23B30B3100A6980E /* UIColor+Hex.h */,
+				E0BB238F23B30B3200A6980E /* UIColor+Hex.m */,
+				E0BB239F23B3303200A6980E /* UIImage+Clip.h */,
+				E0BB23A023B3303300A6980E /* UIImage+Clip.m */,
+				E0BB238B23B30A6700A6980E /* UIView+LayoutMethods.h */,
+				E0BB238C23B30A6700A6980E /* UIView+LayoutMethods.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		E0BB239423B32DB100A6980E /* animation */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB239523B32DB100A6980E /* Animation.h */,
+				E0BB239723B32DB100A6980E /* Animation.m */,
+				E0BB239823B32DB100A6980E /* UIView+Animation.h */,
+				E0BB239623B32DB100A6980E /* UIView+Animation.m */,
+				E0BB239C23B32FC100A6980E /* UIView+AnimationExtension.h */,
+				E0BB239D23B32FC100A6980E /* UIView+AnimationExtension.m */,
+			);
+			path = animation;
 			sourceTree = "<group>";
 		};
 		E0F92B2223B1EB1600295EE5 = {
@@ -168,6 +288,7 @@
 				E0BB234723B20C0A00A6980E /* Controller */,
 				E0BB234623B20C0500A6980E /* Mode */,
 				E0BB234523B20BFC00A6980E /* View */,
+				E0BB238A23B30A4F00A6980E /* Category */,
 				E0F92B2E23B1EB1600295EE5 /* AppDelegate.h */,
 				E0F92B2F23B1EB1600295EE5 /* AppDelegate.m */,
 				E0F92B3123B1EB1600295EE5 /* ViewController.h */,
@@ -298,15 +419,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0BB236223B3043900A6980E /* TADrawLocationMode.m in Sources */,
+				E0BB238823B307A600A6980E /* TADarwCardCollectionViewCell.m in Sources */,
 				E0F92B3323B1EB1600295EE5 /* ViewController.m in Sources */,
 				E0BB235D23B3019000A6980E /* TATarReadingDrawContentMode.m in Sources */,
 				E0F92B3E23B1EB1700295EE5 /* main.m in Sources */,
 				E0BB235623B2FEE400A6980E /* TADrawCardLayout.m in Sources */,
+				E0BB238223B307A600A6980E /* TATarotView.m in Sources */,
+				E0BB238123B307A600A6980E /* TADrawCardCollectionView.m in Sources */,
+				E0BB238323B307A600A6980E /* TAShuffleView.m in Sources */,
+				E0BB239A23B32DB100A6980E /* Animation.m in Sources */,
+				E0BB239923B32DB100A6980E /* UIView+Animation.m in Sources */,
+				E0BB239323B32D5200A6980E /* HImageUtility.m in Sources */,
+				E0BB236523B3078100A6980E /* TATarotReadingShowView.m in Sources */,
 				E0F92B3023B1EB1600295EE5 /* AppDelegate.m in Sources */,
+				E0BB23A523B3305C00A6980E /* NSString+StringSize.m in Sources */,
+				E0BB239023B30B3200A6980E /* UIColor+Hex.m in Sources */,
 				E0BB235F23B3019000A6980E /* TATarotReadingDrawMode.m in Sources */,
 				E0BB235523B2FEE400A6980E /* TADarwCardCollectionViewLayoutAttributes.m in Sources */,
+				E0BB238923B307A600A6980E /* TADrawCardArrowView.m in Sources */,
+				E0BB236823B3078D00A6980E /* TATarotReadingCardView.m in Sources */,
+				E0BB23A123B3303300A6980E /* UIImage+Clip.m in Sources */,
 				E0BB234C23B20D6F00A6980E /* GPDrawCardViewController.m in Sources */,
+				E0BB238D23B30A6700A6980E /* UIView+LayoutMethods.m in Sources */,
 				E0BB235E23B3019000A6980E /* TATarotReadinDrawModeManger.m in Sources */,
+				E0BB238623B307A600A6980E /* TACardRippleView.m in Sources */,
+				E0BB238023B307A600A6980E /* TADrawCardView.m in Sources */,
+				E0BB239E23B32FC100A6980E /* UIView+AnimationExtension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

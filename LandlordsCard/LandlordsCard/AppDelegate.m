@@ -22,7 +22,9 @@
     
     GPDrawCardViewController *drawCardVC = [[GPDrawCardViewController alloc]init];
     
-    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:drawCardVC];
+    drawCardVC.cardContentMode = [[TATarReadingDrawContentMode alloc]initWithMode];
+    
+    self.window.rootViewController = drawCardVC;
     
     [self.window makeKeyAndVisible];
 
