@@ -3,10 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		952624D9870366DD2DA54589 /* Pods_LandlordsCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 71045452257D12E5C8B0D455 /* Pods_LandlordsCard.framework */; };
+		E0BB234C23B20D6F00A6980E /* GPDrawCardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB234B23B20D6F00A6980E /* GPDrawCardViewController.m */; };
+		E0BB235523B2FEE400A6980E /* TADarwCardCollectionViewLayoutAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB235323B2FEE400A6980E /* TADarwCardCollectionViewLayoutAttributes.m */; };
+		E0BB235623B2FEE400A6980E /* TADrawCardLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB235423B2FEE400A6980E /* TADrawCardLayout.m */; };
+		E0BB235D23B3019000A6980E /* TATarReadingDrawContentMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB235823B3019000A6980E /* TATarReadingDrawContentMode.m */; };
+		E0BB235E23B3019000A6980E /* TATarotReadinDrawModeManger.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB235A23B3019000A6980E /* TATarotReadinDrawModeManger.m */; };
+		E0BB235F23B3019000A6980E /* TATarotReadingDrawMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB235B23B3019000A6980E /* TATarotReadingDrawMode.m */; };
+		E0BB236223B3043900A6980E /* TADrawLocationMode.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BB236023B3043900A6980E /* TADrawLocationMode.m */; };
 		E0F92B3023B1EB1600295EE5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B2F23B1EB1600295EE5 /* AppDelegate.m */; };
 		E0F92B3323B1EB1600295EE5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B3223B1EB1600295EE5 /* ViewController.m */; };
 		E0F92B3623B1EB1600295EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F92B3423B1EB1600295EE5 /* Main.storyboard */; };
@@ -16,6 +24,23 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		71045452257D12E5C8B0D455 /* Pods_LandlordsCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LandlordsCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BB234923B20CDE00A6980E /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E0BB234A23B20D6F00A6980E /* GPDrawCardViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GPDrawCardViewController.h; sourceTree = "<group>"; };
+		E0BB234B23B20D6F00A6980E /* GPDrawCardViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GPDrawCardViewController.m; sourceTree = "<group>"; };
+		E0BB234F23B2FD8B00A6980E /* TATarotReading.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATarotReading.h; sourceTree = "<group>"; };
+		E0BB235123B2FEE400A6980E /* TADrawCardLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADrawCardLayout.h; sourceTree = "<group>"; };
+		E0BB235223B2FEE400A6980E /* TADarwCardCollectionViewLayoutAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADarwCardCollectionViewLayoutAttributes.h; sourceTree = "<group>"; };
+		E0BB235323B2FEE400A6980E /* TADarwCardCollectionViewLayoutAttributes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADarwCardCollectionViewLayoutAttributes.m; sourceTree = "<group>"; };
+		E0BB235423B2FEE400A6980E /* TADrawCardLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADrawCardLayout.m; sourceTree = "<group>"; };
+		E0BB235723B3018F00A6980E /* TATarReadingDrawContentMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATarReadingDrawContentMode.h; sourceTree = "<group>"; };
+		E0BB235823B3019000A6980E /* TATarReadingDrawContentMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATarReadingDrawContentMode.m; sourceTree = "<group>"; };
+		E0BB235923B3019000A6980E /* TATarotReadinDrawModeManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATarotReadinDrawModeManger.h; sourceTree = "<group>"; };
+		E0BB235A23B3019000A6980E /* TATarotReadinDrawModeManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATarotReadinDrawModeManger.m; sourceTree = "<group>"; };
+		E0BB235B23B3019000A6980E /* TATarotReadingDrawMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TATarotReadingDrawMode.m; sourceTree = "<group>"; };
+		E0BB235C23B3019000A6980E /* TATarotReadingDrawMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TATarotReadingDrawMode.h; sourceTree = "<group>"; };
+		E0BB236023B3043900A6980E /* TADrawLocationMode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADrawLocationMode.m; sourceTree = "<group>"; };
+		E0BB236123B3043900A6980E /* TADrawLocationMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADrawLocationMode.h; sourceTree = "<group>"; };
 		E0F92B2B23B1EB1600295EE5 /* LandlordsCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandlordsCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F92B2E23B1EB1600295EE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0F92B2F23B1EB1600295EE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +51,8 @@
 		E0F92B3A23B1EB1700295EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0F92B3C23B1EB1700295EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0F92B3D23B1EB1700295EE5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EDD6D2B733419CE81B42D668 /* Pods-LandlordsCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandlordsCard.release.xcconfig"; path = "Target Support Files/Pods-LandlordsCard/Pods-LandlordsCard.release.xcconfig"; sourceTree = "<group>"; };
+		FF4CEE4E3D4FF3E961A6C535 /* Pods-LandlordsCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LandlordsCard.debug.xcconfig"; path = "Target Support Files/Pods-LandlordsCard/Pods-LandlordsCard.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +60,94 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				952624D9870366DD2DA54589 /* Pods_LandlordsCard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B046D8B4ACCE1445A29B3C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF4CEE4E3D4FF3E961A6C535 /* Pods-LandlordsCard.debug.xcconfig */,
+				EDD6D2B733419CE81B42D668 /* Pods-LandlordsCard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8CDEB0E36EF89E973875AA75 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				71045452257D12E5C8B0D455 /* Pods_LandlordsCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0BB234523B20BFC00A6980E /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0BB234623B20C0500A6980E /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB236123B3043900A6980E /* TADrawLocationMode.h */,
+				E0BB236023B3043900A6980E /* TADrawLocationMode.m */,
+				E0BB235C23B3019000A6980E /* TATarotReadingDrawMode.h */,
+				E0BB235B23B3019000A6980E /* TATarotReadingDrawMode.m */,
+				E0BB235723B3018F00A6980E /* TATarReadingDrawContentMode.h */,
+				E0BB235823B3019000A6980E /* TATarReadingDrawContentMode.m */,
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		E0BB234723B20C0A00A6980E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB234A23B20D6F00A6980E /* GPDrawCardViewController.h */,
+				E0BB234B23B20D6F00A6980E /* GPDrawCardViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0BB234823B20C1300A6980E /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB235923B3019000A6980E /* TATarotReadinDrawModeManger.h */,
+				E0BB235A23B3019000A6980E /* TATarotReadinDrawModeManger.m */,
+			);
+			path = Manger;
+			sourceTree = "<group>";
+		};
+		E0BB234E23B2FD8100A6980E /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB234F23B2FD8B00A6980E /* TATarotReading.h */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		E0BB235023B2FEE400A6980E /* DarwCardLayout */ = {
+			isa = PBXGroup;
+			children = (
+				E0BB235223B2FEE400A6980E /* TADarwCardCollectionViewLayoutAttributes.h */,
+				E0BB235323B2FEE400A6980E /* TADarwCardCollectionViewLayoutAttributes.m */,
+				E0BB235123B2FEE400A6980E /* TADrawCardLayout.h */,
+				E0BB235423B2FEE400A6980E /* TADrawCardLayout.m */,
+			);
+			path = DarwCardLayout;
+			sourceTree = "<group>";
+		};
 		E0F92B2223B1EB1600295EE5 = {
 			isa = PBXGroup;
 			children = (
 				E0F92B2D23B1EB1600295EE5 /* LandlordsCard */,
 				E0F92B2C23B1EB1600295EE5 /* Products */,
+				3B046D8B4ACCE1445A29B3C2 /* Pods */,
+				8CDEB0E36EF89E973875AA75 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +162,12 @@
 		E0F92B2D23B1EB1600295EE5 /* LandlordsCard */ = {
 			isa = PBXGroup;
 			children = (
+				E0BB235023B2FEE400A6980E /* DarwCardLayout */,
+				E0BB234E23B2FD8100A6980E /* Tool */,
+				E0BB234823B20C1300A6980E /* Manger */,
+				E0BB234723B20C0A00A6980E /* Controller */,
+				E0BB234623B20C0500A6980E /* Mode */,
+				E0BB234523B20BFC00A6980E /* View */,
 				E0F92B2E23B1EB1600295EE5 /* AppDelegate.h */,
 				E0F92B2F23B1EB1600295EE5 /* AppDelegate.m */,
 				E0F92B3123B1EB1600295EE5 /* ViewController.h */,
@@ -67,6 +177,7 @@
 				E0F92B3923B1EB1700295EE5 /* LaunchScreen.storyboard */,
 				E0F92B3C23B1EB1700295EE5 /* Info.plist */,
 				E0F92B3D23B1EB1700295EE5 /* main.m */,
+				E0BB234923B20CDE00A6980E /* PrefixHeader.pch */,
 			);
 			path = LandlordsCard;
 			sourceTree = "<group>";
@@ -78,9 +189,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0F92B4123B1EB1700295EE5 /* Build configuration list for PBXNativeTarget "LandlordsCard" */;
 			buildPhases = (
+				6F7DA4347C7E0B2F38EEEC12 /* [CP] Check Pods Manifest.lock */,
 				E0F92B2723B1EB1600295EE5 /* Sources */,
 				E0F92B2823B1EB1600295EE5 /* Frameworks */,
 				E0F92B2923B1EB1600295EE5 /* Resources */,
+				7784A694A46748CC49C2A332 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -97,6 +210,7 @@
 		E0F92B2323B1EB1600295EE5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = GP;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = "郭鹏";
 				TargetAttributes = {
@@ -136,14 +250,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6F7DA4347C7E0B2F38EEEC12 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LandlordsCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7784A694A46748CC49C2A332 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LandlordsCard/Pods-LandlordsCard-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LandlordsCard/Pods-LandlordsCard-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LandlordsCard/Pods-LandlordsCard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0F92B2723B1EB1600295EE5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0BB236223B3043900A6980E /* TADrawLocationMode.m in Sources */,
 				E0F92B3323B1EB1600295EE5 /* ViewController.m in Sources */,
+				E0BB235D23B3019000A6980E /* TATarReadingDrawContentMode.m in Sources */,
 				E0F92B3E23B1EB1700295EE5 /* main.m in Sources */,
+				E0BB235623B2FEE400A6980E /* TADrawCardLayout.m in Sources */,
 				E0F92B3023B1EB1600295EE5 /* AppDelegate.m in Sources */,
+				E0BB235F23B3019000A6980E /* TATarotReadingDrawMode.m in Sources */,
+				E0BB235523B2FEE400A6980E /* TADarwCardCollectionViewLayoutAttributes.m in Sources */,
+				E0BB234C23B20D6F00A6980E /* GPDrawCardViewController.m in Sources */,
+				E0BB235E23B3019000A6980E /* TATarotReadinDrawModeManger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,9 +446,13 @@
 		};
 		E0F92B4223B1EB1700295EE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF4CEE4E3D4FF3E961A6C535 /* Pods-LandlordsCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LandlordsCard/PrefixHeader.pch;
 				INFOPLIST_FILE = LandlordsCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -299,9 +466,13 @@
 		};
 		E0F92B4323B1EB1700295EE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDD6D2B733419CE81B42D668 /* Pods-LandlordsCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_INCREASE_PRECOMPILED_HEADER_SHARING = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = LandlordsCard/PrefixHeader.pch;
 				INFOPLIST_FILE = LandlordsCard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

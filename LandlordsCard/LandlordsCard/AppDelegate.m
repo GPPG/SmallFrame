@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "GPDrawCardViewController.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,15 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+
+    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
+    
+    GPDrawCardViewController *drawCardVC = [[GPDrawCardViewController alloc]init];
+    
+    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:drawCardVC];
+    
+    [self.window makeKeyAndVisible];
+
     return YES;
 }
 
