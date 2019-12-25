@@ -94,7 +94,7 @@
 		E0BB23A223B3304D00A6980E /* ColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorUtils.h; sourceTree = "<group>"; };
 		E0BB23A323B3305C00A6980E /* NSString+StringSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringSize.m"; sourceTree = "<group>"; };
 		E0BB23A423B3305C00A6980E /* NSString+StringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringSize.h"; sourceTree = "<group>"; };
-		E0F92B2B23B1EB1600295EE5 /* LandlordsCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LandlordsCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0F92B2B23B1EB1600295EE5 /* 卡牌.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "卡牌.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F92B2E23B1EB1600295EE5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0F92B2F23B1EB1600295EE5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E0F92B3123B1EB1600295EE5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
@@ -274,7 +274,7 @@
 		E0F92B2C23B1EB1600295EE5 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				E0F92B2B23B1EB1600295EE5 /* LandlordsCard.app */,
+				E0F92B2B23B1EB1600295EE5 /* 卡牌.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -322,7 +322,7 @@
 			);
 			name = LandlordsCard;
 			productName = LandlordsCard;
-			productReference = E0F92B2B23B1EB1600295EE5 /* LandlordsCard.app */;
+			productReference = E0F92B2B23B1EB1600295EE5 /* 卡牌.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -597,7 +597,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = GP.LandlordsCard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "卡牌";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -617,7 +617,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = GP.LandlordsCard;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "卡牌";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
