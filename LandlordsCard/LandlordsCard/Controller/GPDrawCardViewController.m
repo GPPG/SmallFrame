@@ -29,7 +29,6 @@
 
 @property (nonatomic, strong) CAGradientLayer *gradientLayer;
 
-@property (nonatomic, strong) UIImageView *arrawImageView;
 
 @end
 
@@ -57,7 +56,6 @@
 - (void)addView{
     [self.view.layer addSublayer:self.gradientLayer];
     [self.view addSubview:self.readingShowView];
-    [self.view addSubview:self.arrawImageView];
     [self.view addSubview:self.arrowView];
     [self.view addSubview:self.drawCardView];
 }
@@ -157,7 +155,6 @@
     [UIView animateWithDuration:0.25 animations:^{
         self.drawCardView.y = SCREEN_HEIGHT + 30;
         self.arrowView.y = SCREEN_HEIGHT + 30;
-        self.arrawImageView.y =  SCREEN_HEIGHT + 30;
 
     } completion:^(BOOL finished) {}];
 }
@@ -238,13 +235,5 @@
         _arrowView = [[TADrawCardArrowView alloc]initWithCenter:CGPointMake(SCREEN_WIDTH * 0.5, SCREEN_HEIGHT + 600 - fanBottonPadding - 40) radius:600];
     }
     return _arrowView;
-}
-- (UIImageView *)arrawImageView{
-    
-    if (!_arrawImageView) {
-        _arrawImageView = [[UIImageView alloc]initWithImage:[UIImage imageNamed:@"card_draw_index"]];
-        _arrawImageView.center = CGPointMake(SCREEN_WIDTH * 0.5, SCREEN_HEIGHT - fanBottonPadding - 25);
-    }
-    return _arrawImageView;
 }
 @end

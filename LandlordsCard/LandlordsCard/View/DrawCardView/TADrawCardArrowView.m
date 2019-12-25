@@ -89,15 +89,12 @@
 
 #pragma mark - public
 - (void)startLineAnimation{
-    
-    self.backgroundColor = [UIColor purpleColor];
-    self.layer.contents = (id)[UIImage imageNamed:@"card_draw_index"].CGImage;
-    
-//    [self addView];
-//
-//    [self addPath];
-//
-//    [self performAnimtion];
+        
+    [self addView];
+
+    [self addPath];
+
+    [self performAnimtion];
     
 }
 
