@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     var cropVC: CropViewController!
+    var adjustVC: AdjustViewController!
+
 
     // MARK: - Life cyle
     override func viewDidLoad() {
@@ -40,7 +42,15 @@ class ViewController: UIViewController {
     
     
     @IBAction func adjustAction(_ sender: Any) {
+        adjustVC = AdjustViewController()
+        adjustVC.adjustImage = imageView.image
+
+        navigationController?.pushViewController(adjustVC, animated: true)
         
+        adjustVC.disposeCompleteBlock = { [unowned self] disposeImage in
+            self.imageView.image = disposeImage
+        }
+
     }
     
     @IBAction func magazineAction(_ sender: Any) {
