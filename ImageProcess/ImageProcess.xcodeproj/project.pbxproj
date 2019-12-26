@@ -13,6 +13,21 @@
 		E0F92B5723B3602200295EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F92B5523B3602200295EE5 /* Main.storyboard */; };
 		E0F92B5923B3602300295EE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0F92B5823B3602300295EE5 /* Assets.xcassets */; };
 		E0F92B5C23B3602300295EE5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F92B5A23B3602300295EE5 /* LaunchScreen.storyboard */; };
+		E0F92B7323B4869600295EE5 /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B7223B4869600295EE5 /* CropViewController.swift */; };
+		E0F92B7823B4869F00295EE5 /* CropTipBtnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B7423B4869E00295EE5 /* CropTipBtnView.swift */; };
+		E0F92B7923B4869F00295EE5 /* CropBottomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B7523B4869F00295EE5 /* CropBottomCollectionViewCell.swift */; };
+		E0F92B7A23B4869F00295EE5 /* CropBottomRightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B7623B4869F00295EE5 /* CropBottomRightView.swift */; };
+		E0F92B7B23B4869F00295EE5 /* CropBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B7723B4869F00295EE5 /* CropBottomView.swift */; };
+		E0F92B9423B486FD00295EE5 /* UIView+HXExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B8323B486FD00295EE5 /* UIView+HXExtension.m */; };
+		E0F92B9523B486FD00295EE5 /* UIImage+Clip.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B8723B486FD00295EE5 /* UIImage+Clip.m */; };
+		E0F92B9723B486FD00295EE5 /* UIColor+SWCustomMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B8A23B486FD00295EE5 /* UIColor+SWCustomMethod.m */; };
+		E0F92B9823B486FD00295EE5 /* UIImage+CARotate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B8B23B486FD00295EE5 /* UIImage+CARotate.m */; };
+		E0F92B9923B486FD00295EE5 /* CATailorLineView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B8C23B486FD00295EE5 /* CATailorLineView.m */; };
+		E0F92B9A23B486FD00295EE5 /* CATailorView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B8E23B486FD00295EE5 /* CATailorView.m */; };
+		E0F92B9B23B486FD00295EE5 /* CATailorCornerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B8F23B486FD00295EE5 /* CATailorCornerView.m */; };
+		E0F92B9C23B486FD00295EE5 /* CATailorGridLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B9123B486FD00295EE5 /* CATailorGridLayer.m */; };
+		E0F92B9E23B4882700295EE5 /* AdjustTopFunctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B9D23B4882700295EE5 /* AdjustTopFunctionView.swift */; };
+		E0F92BA023B4882F00295EE5 /* AdjustBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B9F23B4882F00295EE5 /* AdjustBottomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +41,30 @@
 		E0F92B5823B3602300295EE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0F92B5B23B3602300295EE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0F92B5D23B3602300295EE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0F92B7223B4869600295EE5 /* CropViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropViewController.swift; sourceTree = "<group>"; };
+		E0F92B7423B4869E00295EE5 /* CropTipBtnView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropTipBtnView.swift; sourceTree = "<group>"; };
+		E0F92B7523B4869F00295EE5 /* CropBottomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropBottomCollectionViewCell.swift; sourceTree = "<group>"; };
+		E0F92B7623B4869F00295EE5 /* CropBottomRightView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropBottomRightView.swift; sourceTree = "<group>"; };
+		E0F92B7723B4869F00295EE5 /* CropBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CropBottomView.swift; sourceTree = "<group>"; };
+		E0F92B7C23B486AC00295EE5 /* ImageProcess-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ImageProcess-Bridging-Header.h"; sourceTree = "<group>"; };
+		E0F92B8223B486FD00295EE5 /* UIImage+Clip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Clip.h"; sourceTree = "<group>"; };
+		E0F92B8323B486FD00295EE5 /* UIView+HXExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HXExtension.m"; sourceTree = "<group>"; };
+		E0F92B8523B486FD00295EE5 /* UIImage+CARotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CARotate.h"; sourceTree = "<group>"; };
+		E0F92B8623B486FD00295EE5 /* UIColor+SWCustomMethod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+SWCustomMethod.h"; sourceTree = "<group>"; };
+		E0F92B8723B486FD00295EE5 /* UIImage+Clip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Clip.m"; sourceTree = "<group>"; };
+		E0F92B8923B486FD00295EE5 /* UIView+HXExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HXExtension.h"; sourceTree = "<group>"; };
+		E0F92B8A23B486FD00295EE5 /* UIColor+SWCustomMethod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+SWCustomMethod.m"; sourceTree = "<group>"; };
+		E0F92B8B23B486FD00295EE5 /* UIImage+CARotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CARotate.m"; sourceTree = "<group>"; };
+		E0F92B8C23B486FD00295EE5 /* CATailorLineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATailorLineView.m; sourceTree = "<group>"; };
+		E0F92B8D23B486FD00295EE5 /* CATailorGridLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATailorGridLayer.h; sourceTree = "<group>"; };
+		E0F92B8E23B486FD00295EE5 /* CATailorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATailorView.m; sourceTree = "<group>"; };
+		E0F92B8F23B486FD00295EE5 /* CATailorCornerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATailorCornerView.m; sourceTree = "<group>"; };
+		E0F92B9023B486FD00295EE5 /* CATailorLineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATailorLineView.h; sourceTree = "<group>"; };
+		E0F92B9123B486FD00295EE5 /* CATailorGridLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATailorGridLayer.m; sourceTree = "<group>"; };
+		E0F92B9223B486FD00295EE5 /* CATailorCornerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATailorCornerView.h; sourceTree = "<group>"; };
+		E0F92B9323B486FD00295EE5 /* CATailorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATailorView.h; sourceTree = "<group>"; };
+		E0F92B9D23B4882700295EE5 /* AdjustTopFunctionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustTopFunctionView.swift; sourceTree = "<group>"; };
+		E0F92B9F23B4882F00295EE5 /* AdjustBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustBottomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,14 +109,174 @@
 		E0F92B5023B3602200295EE5 /* ImageProcess */ = {
 			isa = PBXGroup;
 			children = (
+				E0F92B6D23B4596700295EE5 /* Magazine */,
+				E0F92B6823B4593100295EE5 /* Adjust */,
+				E0F92B6323B458D500295EE5 /* Clip */,
 				E0F92B5123B3602200295EE5 /* AppDelegate.swift */,
 				E0F92B5323B3602200295EE5 /* ViewController.swift */,
 				E0F92B5523B3602200295EE5 /* Main.storyboard */,
 				E0F92B5823B3602300295EE5 /* Assets.xcassets */,
 				E0F92B5A23B3602300295EE5 /* LaunchScreen.storyboard */,
 				E0F92B5D23B3602300295EE5 /* Info.plist */,
+				E0F92B7C23B486AC00295EE5 /* ImageProcess-Bridging-Header.h */,
 			);
 			path = ImageProcess;
+			sourceTree = "<group>";
+		};
+		E0F92B6323B458D500295EE5 /* Clip */ = {
+			isa = PBXGroup;
+			children = (
+				E0F92B6723B4592400295EE5 /* Manger */,
+				E0F92B6423B458E700295EE5 /* Controller */,
+				E0F92B6623B4591F00295EE5 /* Mode */,
+				E0F92B6523B4591A00295EE5 /* View */,
+			);
+			path = Clip;
+			sourceTree = "<group>";
+		};
+		E0F92B6423B458E700295EE5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0F92B7223B4869600295EE5 /* CropViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0F92B6523B4591A00295EE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0F92B9F23B4882F00295EE5 /* AdjustBottomView.swift */,
+				E0F92B9D23B4882700295EE5 /* AdjustTopFunctionView.swift */,
+				E0F92B8023B486FD00295EE5 /* Crop */,
+				E0F92B7523B4869F00295EE5 /* CropBottomCollectionViewCell.swift */,
+				E0F92B7623B4869F00295EE5 /* CropBottomRightView.swift */,
+				E0F92B7723B4869F00295EE5 /* CropBottomView.swift */,
+				E0F92B7423B4869E00295EE5 /* CropTipBtnView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0F92B6623B4591F00295EE5 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		E0F92B6723B4592400295EE5 /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manger;
+			sourceTree = "<group>";
+		};
+		E0F92B6823B4593100295EE5 /* Adjust */ = {
+			isa = PBXGroup;
+			children = (
+				E0F92B6B23B4594E00295EE5 /* Controller */,
+				E0F92B6923B4594E00295EE5 /* Manger */,
+				E0F92B6C23B4594E00295EE5 /* Mode */,
+				E0F92B6A23B4594E00295EE5 /* View */,
+			);
+			path = Adjust;
+			sourceTree = "<group>";
+		};
+		E0F92B6923B4594E00295EE5 /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manger;
+			sourceTree = "<group>";
+		};
+		E0F92B6A23B4594E00295EE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0F92B6B23B4594E00295EE5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0F92B6C23B4594E00295EE5 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		E0F92B6D23B4596700295EE5 /* Magazine */ = {
+			isa = PBXGroup;
+			children = (
+				E0F92B6E23B4596700295EE5 /* Mode */,
+				E0F92B6F23B4596700295EE5 /* Manger */,
+				E0F92B7023B4596700295EE5 /* Controller */,
+				E0F92B7123B4596700295EE5 /* View */,
+			);
+			path = Magazine;
+			sourceTree = "<group>";
+		};
+		E0F92B6E23B4596700295EE5 /* Mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Mode;
+			sourceTree = "<group>";
+		};
+		E0F92B6F23B4596700295EE5 /* Manger */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Manger;
+			sourceTree = "<group>";
+		};
+		E0F92B7023B4596700295EE5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0F92B7123B4596700295EE5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E0F92B8023B486FD00295EE5 /* Crop */ = {
+			isa = PBXGroup;
+			children = (
+				E0F92B9223B486FD00295EE5 /* CATailorCornerView.h */,
+				E0F92B8F23B486FD00295EE5 /* CATailorCornerView.m */,
+				E0F92B8D23B486FD00295EE5 /* CATailorGridLayer.h */,
+				E0F92B9123B486FD00295EE5 /* CATailorGridLayer.m */,
+				E0F92B9023B486FD00295EE5 /* CATailorLineView.h */,
+				E0F92B8C23B486FD00295EE5 /* CATailorLineView.m */,
+				E0F92B9323B486FD00295EE5 /* CATailorView.h */,
+				E0F92B8E23B486FD00295EE5 /* CATailorView.m */,
+				E0F92B8123B486FD00295EE5 /* Category */,
+			);
+			path = Crop;
+			sourceTree = "<group>";
+		};
+		E0F92B8123B486FD00295EE5 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E0F92B8623B486FD00295EE5 /* UIColor+SWCustomMethod.h */,
+				E0F92B8A23B486FD00295EE5 /* UIColor+SWCustomMethod.m */,
+				E0F92B8523B486FD00295EE5 /* UIImage+CARotate.h */,
+				E0F92B8B23B486FD00295EE5 /* UIImage+CARotate.m */,
+				E0F92B8223B486FD00295EE5 /* UIImage+Clip.h */,
+				E0F92B8723B486FD00295EE5 /* UIImage+Clip.m */,
+				E0F92B8923B486FD00295EE5 /* UIView+HXExtension.h */,
+				E0F92B8323B486FD00295EE5 /* UIView+HXExtension.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 		E90570D7AB0C0128F09D4213 /* Frameworks */ = {
@@ -122,6 +321,7 @@
 				TargetAttributes = {
 					E0F92B4D23B3602200295EE5 = {
 						CreatedOnToolsVersion = 10.3;
+						LastSwiftMigration = 1030;
 					};
 				};
 			};
@@ -203,8 +403,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0F92B9C23B486FD00295EE5 /* CATailorGridLayer.m in Sources */,
+				E0F92B9523B486FD00295EE5 /* UIImage+Clip.m in Sources */,
+				E0F92BA023B4882F00295EE5 /* AdjustBottomView.swift in Sources */,
+				E0F92B9A23B486FD00295EE5 /* CATailorView.m in Sources */,
+				E0F92B9423B486FD00295EE5 /* UIView+HXExtension.m in Sources */,
+				E0F92B9923B486FD00295EE5 /* CATailorLineView.m in Sources */,
 				E0F92B5423B3602200295EE5 /* ViewController.swift in Sources */,
+				E0F92B9B23B486FD00295EE5 /* CATailorCornerView.m in Sources */,
+				E0F92B7B23B4869F00295EE5 /* CropBottomView.swift in Sources */,
+				E0F92B9823B486FD00295EE5 /* UIImage+CARotate.m in Sources */,
+				E0F92B9E23B4882700295EE5 /* AdjustTopFunctionView.swift in Sources */,
 				E0F92B5223B3602200295EE5 /* AppDelegate.swift in Sources */,
+				E0F92B7923B4869F00295EE5 /* CropBottomCollectionViewCell.swift in Sources */,
+				E0F92B7323B4869600295EE5 /* CropViewController.swift in Sources */,
+				E0F92B7A23B4869F00295EE5 /* CropBottomRightView.swift in Sources */,
+				E0F92B9723B486FD00295EE5 /* UIColor+SWCustomMethod.m in Sources */,
+				E0F92B7823B4869F00295EE5 /* CropTipBtnView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +566,7 @@
 			baseConfigurationReference = 7F13DA754A061CCEC117CD46 /* Pods-ImageProcess.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ImageProcess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -359,6 +575,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = GP.ImageProcess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImageProcess/ImageProcess-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -369,6 +587,7 @@
 			baseConfigurationReference = 74DED6978BE71F6F816057F6 /* Pods-ImageProcess.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = ImageProcess/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -377,6 +596,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = GP.ImageProcess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ImageProcess/ImageProcess-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
