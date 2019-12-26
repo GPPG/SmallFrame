@@ -11,7 +11,7 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
-    var cropVC: CropViewController! = CropViewController()
+    var cropVC: CropViewController!
 
     // MARK: - Life cyle
     override func viewDidLoad() {
@@ -28,6 +28,7 @@ class ViewController: UIViewController {
     
     // MARK: - Action
     @IBAction func clipAction(_ sender: Any) {
+        cropVC = CropViewController()
         cropVC.cropImage = imageView.image
         navigationController?.pushViewController(cropVC, animated: true)
         
@@ -35,8 +36,8 @@ class ViewController: UIViewController {
             [unowned self] image in
             self.imageView.image = image
         }
-
     }
+    
     
     @IBAction func adjustAction(_ sender: Any) {
         
