@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F18AF8B29F46233E56AD96C /* Pods_ImageProcess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15CA5E7DAE3562AB5BD4E55 /* Pods_ImageProcess.framework */; };
 		E0F92B5223B3602200295EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B5123B3602200295EE5 /* AppDelegate.swift */; };
 		E0F92B5423B3602200295EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B5323B3602200295EE5 /* ViewController.swift */; };
 		E0F92B5723B3602200295EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F92B5523B3602200295EE5 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		74DED6978BE71F6F816057F6 /* Pods-ImageProcess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageProcess.release.xcconfig"; path = "Target Support Files/Pods-ImageProcess/Pods-ImageProcess.release.xcconfig"; sourceTree = "<group>"; };
+		7F13DA754A061CCEC117CD46 /* Pods-ImageProcess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageProcess.debug.xcconfig"; path = "Target Support Files/Pods-ImageProcess/Pods-ImageProcess.debug.xcconfig"; sourceTree = "<group>"; };
+		D15CA5E7DAE3562AB5BD4E55 /* Pods_ImageProcess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageProcess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F92B4E23B3602200295EE5 /* ImageProcess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageProcess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F92B5123B3602200295EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0F92B5323B3602200295EE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F18AF8B29F46233E56AD96C /* Pods_ImageProcess.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		221DBC722611E20DCC1652C8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F13DA754A061CCEC117CD46 /* Pods-ImageProcess.debug.xcconfig */,
+				74DED6978BE71F6F816057F6 /* Pods-ImageProcess.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E0F92B4523B3602200295EE5 = {
 			isa = PBXGroup;
 			children = (
 				E0F92B5023B3602200295EE5 /* ImageProcess */,
 				E0F92B4F23B3602200295EE5 /* Products */,
+				221DBC722611E20DCC1652C8 /* Pods */,
+				E90570D7AB0C0128F09D4213 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = ImageProcess;
 			sourceTree = "<group>";
 		};
+		E90570D7AB0C0128F09D4213 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D15CA5E7DAE3562AB5BD4E55 /* Pods_ImageProcess.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0F92B6023B3602300295EE5 /* Build configuration list for PBXNativeTarget "ImageProcess" */;
 			buildPhases = (
+				A24C7F1E6F7E16BA789E869F /* [CP] Check Pods Manifest.lock */,
 				E0F92B4A23B3602200295EE5 /* Sources */,
 				E0F92B4B23B3602200295EE5 /* Frameworks */,
 				E0F92B4C23B3602200295EE5 /* Resources */,
+				0E1271E1054EEF4A90F96B6A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -129,6 +155,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E1271E1054EEF4A90F96B6A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageProcess/Pods-ImageProcess-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageProcess/Pods-ImageProcess-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImageProcess/Pods-ImageProcess-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A24C7F1E6F7E16BA789E869F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageProcess-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E0F92B4A23B3602200295EE5 /* Sources */ = {
@@ -280,6 +348,7 @@
 		};
 		E0F92B6123B3602300295EE5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F13DA754A061CCEC117CD46 /* Pods-ImageProcess.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -291,12 +360,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = GP.ImageProcess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		E0F92B6223B3602300295EE5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 74DED6978BE71F6F816057F6 /* Pods-ImageProcess.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -308,7 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = GP.ImageProcess;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
