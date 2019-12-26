@@ -22,8 +22,6 @@ class MagazineEditViewController: UIViewController {
     
     var titleArray:Array = ["M1","W1","W2","S1","S2","S3","S4","F1","F2","P1"]
     
-    private var vipTitleArray = ["S2","S3","S4","F1","F2","P1"]
-    
     private var topImageStrArray:Array = ["magazine-1-m1-cutout","magazine-2-w1-cutout","magazine-3-w2-cutout","magazine-4-s1-cutout","magazine-5-s2-cutout","magazine-6-s3-cutout","magazine-7-s4-cutout","magazine-8-f1-cutout","magazine-9-f2-cutout","magazine-10-p1-cutout"]
 
     var selectMagCompleteBlock: SelectMagCompleteBlock?
@@ -106,7 +104,6 @@ class MagazineEditViewController: UIViewController {
             guard let selectMagzineValue = selectMagzineValue else { return }
             selectValue = selectMagzineValue
             cellStatusArray[selectMagzineValue] = true
-            let str = titleArray[selectMagzineValue]
         }
     }
     
