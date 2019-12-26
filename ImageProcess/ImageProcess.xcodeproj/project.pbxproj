@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		4F18AF8B29F46233E56AD96C /* Pods_ImageProcess.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D15CA5E7DAE3562AB5BD4E55 /* Pods_ImageProcess.framework */; };
+		E0BB23B423B498DF00A6980E /* AdjustBottomContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23B123B498DF00A6980E /* AdjustBottomContainerView.swift */; };
+		E0BB23B523B498DF00A6980E /* AdjustMidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23B223B498DF00A6980E /* AdjustMidView.swift */; };
+		E0BB23B623B498DF00A6980E /* AdjustTopContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23B323B498DF00A6980E /* AdjustTopContainerView.swift */; };
+		E0BB23B823B498E600A6980E /* AdjustTypeMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23B723B498E600A6980E /* AdjustTypeMode.swift */; };
+		E0BB23BA23B498EF00A6980E /* AdjustViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23B923B498EF00A6980E /* AdjustViewController.swift */; };
 		E0F92B5223B3602200295EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B5123B3602200295EE5 /* AppDelegate.swift */; };
 		E0F92B5423B3602200295EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B5323B3602200295EE5 /* ViewController.swift */; };
 		E0F92B5723B3602200295EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F92B5523B3602200295EE5 /* Main.storyboard */; };
@@ -28,12 +33,19 @@
 		E0F92B9C23B486FD00295EE5 /* CATailorGridLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B9123B486FD00295EE5 /* CATailorGridLayer.m */; };
 		E0F92B9E23B4882700295EE5 /* AdjustTopFunctionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B9D23B4882700295EE5 /* AdjustTopFunctionView.swift */; };
 		E0F92BA023B4882F00295EE5 /* AdjustBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B9F23B4882F00295EE5 /* AdjustBottomView.swift */; };
+		E0F92BA323B48EA200295EE5 /* AdjustHandleImageManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92BA123B48EA200295EE5 /* AdjustHandleImageManger.swift */; };
+		E0F92BA423B48EA200295EE5 /* AdjustMainHandleImageManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92BA223B48EA200295EE5 /* AdjustMainHandleImageManger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		74DED6978BE71F6F816057F6 /* Pods-ImageProcess.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageProcess.release.xcconfig"; path = "Target Support Files/Pods-ImageProcess/Pods-ImageProcess.release.xcconfig"; sourceTree = "<group>"; };
 		7F13DA754A061CCEC117CD46 /* Pods-ImageProcess.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageProcess.debug.xcconfig"; path = "Target Support Files/Pods-ImageProcess/Pods-ImageProcess.debug.xcconfig"; sourceTree = "<group>"; };
 		D15CA5E7DAE3562AB5BD4E55 /* Pods_ImageProcess.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageProcess.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0BB23B123B498DF00A6980E /* AdjustBottomContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustBottomContainerView.swift; sourceTree = "<group>"; };
+		E0BB23B223B498DF00A6980E /* AdjustMidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustMidView.swift; sourceTree = "<group>"; };
+		E0BB23B323B498DF00A6980E /* AdjustTopContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustTopContainerView.swift; sourceTree = "<group>"; };
+		E0BB23B723B498E600A6980E /* AdjustTypeMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustTypeMode.swift; sourceTree = "<group>"; };
+		E0BB23B923B498EF00A6980E /* AdjustViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustViewController.swift; sourceTree = "<group>"; };
 		E0F92B4E23B3602200295EE5 /* ImageProcess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageProcess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F92B5123B3602200295EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0F92B5323B3602200295EE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -65,6 +77,8 @@
 		E0F92B9323B486FD00295EE5 /* CATailorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATailorView.h; sourceTree = "<group>"; };
 		E0F92B9D23B4882700295EE5 /* AdjustTopFunctionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustTopFunctionView.swift; sourceTree = "<group>"; };
 		E0F92B9F23B4882F00295EE5 /* AdjustBottomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustBottomView.swift; sourceTree = "<group>"; };
+		E0F92BA123B48EA200295EE5 /* AdjustHandleImageManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustHandleImageManger.swift; sourceTree = "<group>"; };
+		E0F92BA223B48EA200295EE5 /* AdjustMainHandleImageManger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustMainHandleImageManger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -173,8 +187,8 @@
 		E0F92B6823B4593100295EE5 /* Adjust */ = {
 			isa = PBXGroup;
 			children = (
-				E0F92B6B23B4594E00295EE5 /* Controller */,
 				E0F92B6923B4594E00295EE5 /* Manger */,
+				E0F92B6B23B4594E00295EE5 /* Controller */,
 				E0F92B6C23B4594E00295EE5 /* Mode */,
 				E0F92B6A23B4594E00295EE5 /* View */,
 			);
@@ -184,6 +198,8 @@
 		E0F92B6923B4594E00295EE5 /* Manger */ = {
 			isa = PBXGroup;
 			children = (
+				E0F92BA123B48EA200295EE5 /* AdjustHandleImageManger.swift */,
+				E0F92BA223B48EA200295EE5 /* AdjustMainHandleImageManger.swift */,
 			);
 			path = Manger;
 			sourceTree = "<group>";
@@ -191,6 +207,9 @@
 		E0F92B6A23B4594E00295EE5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E0BB23B123B498DF00A6980E /* AdjustBottomContainerView.swift */,
+				E0BB23B223B498DF00A6980E /* AdjustMidView.swift */,
+				E0BB23B323B498DF00A6980E /* AdjustTopContainerView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -198,6 +217,7 @@
 		E0F92B6B23B4594E00295EE5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E0BB23B923B498EF00A6980E /* AdjustViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -205,6 +225,7 @@
 		E0F92B6C23B4594E00295EE5 /* Mode */ = {
 			isa = PBXGroup;
 			children = (
+				E0BB23B723B498E600A6980E /* AdjustTypeMode.swift */,
 			);
 			path = Mode;
 			sourceTree = "<group>";
@@ -407,19 +428,26 @@
 				E0F92B9523B486FD00295EE5 /* UIImage+Clip.m in Sources */,
 				E0F92BA023B4882F00295EE5 /* AdjustBottomView.swift in Sources */,
 				E0F92B9A23B486FD00295EE5 /* CATailorView.m in Sources */,
+				E0BB23B523B498DF00A6980E /* AdjustMidView.swift in Sources */,
+				E0BB23B423B498DF00A6980E /* AdjustBottomContainerView.swift in Sources */,
 				E0F92B9423B486FD00295EE5 /* UIView+HXExtension.m in Sources */,
 				E0F92B9923B486FD00295EE5 /* CATailorLineView.m in Sources */,
 				E0F92B5423B3602200295EE5 /* ViewController.swift in Sources */,
 				E0F92B9B23B486FD00295EE5 /* CATailorCornerView.m in Sources */,
 				E0F92B7B23B4869F00295EE5 /* CropBottomView.swift in Sources */,
+				E0BB23B623B498DF00A6980E /* AdjustTopContainerView.swift in Sources */,
 				E0F92B9823B486FD00295EE5 /* UIImage+CARotate.m in Sources */,
 				E0F92B9E23B4882700295EE5 /* AdjustTopFunctionView.swift in Sources */,
 				E0F92B5223B3602200295EE5 /* AppDelegate.swift in Sources */,
+				E0BB23BA23B498EF00A6980E /* AdjustViewController.swift in Sources */,
 				E0F92B7923B4869F00295EE5 /* CropBottomCollectionViewCell.swift in Sources */,
 				E0F92B7323B4869600295EE5 /* CropViewController.swift in Sources */,
+				E0F92BA323B48EA200295EE5 /* AdjustHandleImageManger.swift in Sources */,
+				E0F92BA423B48EA200295EE5 /* AdjustMainHandleImageManger.swift in Sources */,
 				E0F92B7A23B4869F00295EE5 /* CropBottomRightView.swift in Sources */,
 				E0F92B9723B486FD00295EE5 /* UIColor+SWCustomMethod.m in Sources */,
 				E0F92B7823B4869F00295EE5 /* CropTipBtnView.swift in Sources */,
+				E0BB23B823B498E600A6980E /* AdjustTypeMode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

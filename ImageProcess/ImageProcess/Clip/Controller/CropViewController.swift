@@ -80,7 +80,7 @@ class CropViewController: UIViewController {
     func addView(){
         let rect = CGRect(x: 0, y: 0, width: self.view.frame.width, height: self.view.frame.height - 150);
         tailorView = CATailorView(frame: rect)
-        tailorView.originalImage = cropImage ?? UIImage(named: "mask-fortunecamera")!
+        tailorView.originalImage = cropImage ?? UIImage(named: "1")!
         view.addSubview(tailorView)
         view.addSubview(cropBottomView)
         view.addSubview(cropTopFunctionView)

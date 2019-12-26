@@ -3,4 +3,5 @@
 //
 
 #import "CATailorView.h"
+#import <GPUImage.h>
 

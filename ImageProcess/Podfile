@@ -7,5 +7,6 @@ target 'ImageProcess' do
 
   # Pods for ImageProcess
   pod 'SnapKit'
+pod 'GPUImage'
 
 end
