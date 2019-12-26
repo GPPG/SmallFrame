@@ -13,6 +13,11 @@
 		E0BB23B623B498DF00A6980E /* AdjustTopContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23B323B498DF00A6980E /* AdjustTopContainerView.swift */; };
 		E0BB23B823B498E600A6980E /* AdjustTypeMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23B723B498E600A6980E /* AdjustTypeMode.swift */; };
 		E0BB23BA23B498EF00A6980E /* AdjustViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23B923B498EF00A6980E /* AdjustViewController.swift */; };
+		E0BB23BC23B4A3DB00A6980E /* MagazineEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23BB23B4A3DB00A6980E /* MagazineEditViewController.swift */; };
+		E0BB23BE23B4A52B00A6980E /* MagazineEditMidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23BD23B4A52B00A6980E /* MagazineEditMidView.swift */; };
+		E0BB23C023B4A53700A6980E /* MagazineEditCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23BF23B4A53700A6980E /* MagazineEditCollectionViewCell.swift */; };
+		E0BB23C323B4A59200A6980E /* UIView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23C123B4A59200A6980E /* UIView-Extension.swift */; };
+		E0BB23C423B4A59200A6980E /* UIViewSizesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0BB23C223B4A59200A6980E /* UIViewSizesExtension.swift */; };
 		E0F92B5223B3602200295EE5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B5123B3602200295EE5 /* AppDelegate.swift */; };
 		E0F92B5423B3602200295EE5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0F92B5323B3602200295EE5 /* ViewController.swift */; };
 		E0F92B5723B3602200295EE5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0F92B5523B3602200295EE5 /* Main.storyboard */; };
@@ -46,6 +51,11 @@
 		E0BB23B323B498DF00A6980E /* AdjustTopContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustTopContainerView.swift; sourceTree = "<group>"; };
 		E0BB23B723B498E600A6980E /* AdjustTypeMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustTypeMode.swift; sourceTree = "<group>"; };
 		E0BB23B923B498EF00A6980E /* AdjustViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdjustViewController.swift; sourceTree = "<group>"; };
+		E0BB23BB23B4A3DB00A6980E /* MagazineEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineEditViewController.swift; sourceTree = "<group>"; };
+		E0BB23BD23B4A52B00A6980E /* MagazineEditMidView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineEditMidView.swift; sourceTree = "<group>"; };
+		E0BB23BF23B4A53700A6980E /* MagazineEditCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MagazineEditCollectionViewCell.swift; sourceTree = "<group>"; };
+		E0BB23C123B4A59200A6980E /* UIView-Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView-Extension.swift"; sourceTree = "<group>"; };
+		E0BB23C223B4A59200A6980E /* UIViewSizesExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewSizesExtension.swift; sourceTree = "<group>"; };
 		E0F92B4E23B3602200295EE5 /* ImageProcess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageProcess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F92B5123B3602200295EE5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E0F92B5323B3602200295EE5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -251,6 +261,8 @@
 		E0F92B6F23B4596700295EE5 /* Manger */ = {
 			isa = PBXGroup;
 			children = (
+				E0BB23C123B4A59200A6980E /* UIView-Extension.swift */,
+				E0BB23C223B4A59200A6980E /* UIViewSizesExtension.swift */,
 			);
 			path = Manger;
 			sourceTree = "<group>";
@@ -258,6 +270,7 @@
 		E0F92B7023B4596700295EE5 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E0BB23BB23B4A3DB00A6980E /* MagazineEditViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -265,6 +278,8 @@
 		E0F92B7123B4596700295EE5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E0BB23BF23B4A53700A6980E /* MagazineEditCollectionViewCell.swift */,
+				E0BB23BD23B4A52B00A6980E /* MagazineEditMidView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -426,10 +441,13 @@
 			files = (
 				E0F92B9C23B486FD00295EE5 /* CATailorGridLayer.m in Sources */,
 				E0F92B9523B486FD00295EE5 /* UIImage+Clip.m in Sources */,
+				E0BB23BC23B4A3DB00A6980E /* MagazineEditViewController.swift in Sources */,
 				E0F92BA023B4882F00295EE5 /* AdjustBottomView.swift in Sources */,
 				E0F92B9A23B486FD00295EE5 /* CATailorView.m in Sources */,
 				E0BB23B523B498DF00A6980E /* AdjustMidView.swift in Sources */,
 				E0BB23B423B498DF00A6980E /* AdjustBottomContainerView.swift in Sources */,
+				E0BB23BE23B4A52B00A6980E /* MagazineEditMidView.swift in Sources */,
+				E0BB23C423B4A59200A6980E /* UIViewSizesExtension.swift in Sources */,
 				E0F92B9423B486FD00295EE5 /* UIView+HXExtension.m in Sources */,
 				E0F92B9923B486FD00295EE5 /* CATailorLineView.m in Sources */,
 				E0F92B5423B3602200295EE5 /* ViewController.swift in Sources */,
@@ -443,8 +461,10 @@
 				E0F92B7923B4869F00295EE5 /* CropBottomCollectionViewCell.swift in Sources */,
 				E0F92B7323B4869600295EE5 /* CropViewController.swift in Sources */,
 				E0F92BA323B48EA200295EE5 /* AdjustHandleImageManger.swift in Sources */,
+				E0BB23C023B4A53700A6980E /* MagazineEditCollectionViewCell.swift in Sources */,
 				E0F92BA423B48EA200295EE5 /* AdjustMainHandleImageManger.swift in Sources */,
 				E0F92B7A23B4869F00295EE5 /* CropBottomRightView.swift in Sources */,
+				E0BB23C323B4A59200A6980E /* UIView-Extension.swift in Sources */,
 				E0F92B9723B486FD00295EE5 /* UIColor+SWCustomMethod.m in Sources */,
 				E0F92B7823B4869F00295EE5 /* CropTipBtnView.swift in Sources */,
 				E0BB23B823B498E600A6980E /* AdjustTypeMode.swift in Sources */,

@@ -54,6 +54,14 @@ class ViewController: UIViewController {
     }
     
     @IBAction func magazineAction(_ sender: Any) {
+        var topImageStrArray:Array = ["magazine-1-m1-cutout","magazine-2-w1-cutout","magazine-3-w2-cutout","magazine-4-s1-cutout","magazine-5-s2-cutout","magazine-6-s3-cutout","magazine-7-s4-cutout","magazine-8-f1-cutout","magazine-9-f2-cutout","magazine-10-p1-cutout"]
+
+        let magEdit = MagazineEditViewController()
+        magEdit.topImageStr = topImageStrArray[0]
+              magEdit.bottomImage = imageView.image
+              magEdit.selectMagzineValue = 0
+        navigationController?.pushViewController(magEdit, animated: true)
+
         
     }
     
