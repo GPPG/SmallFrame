@@ -23,7 +23,7 @@ typedef void(^AlterBlock)(void);
 - (void)acquirePushAuthorizationStatus:(RegisterPushBlock)registerPushBlock;
 
 
-- (void)acquirePushAuthorizationStatus:(RegisterPushSuccessfulBlock)registerPushSuccessfulBlock registerPushFailureBlock:(RegisterPushFailureBlock)registerPushFailureBlock;
+-(void)acquirePushAuthorizationStatus:(RegisterPushSuccessfulBlock)registerPushSuccessfulBlock registerPushFailureBlock:(RegisterPushFailureBlock)registerPushFailureBlock;
 
 - (void)showAlterAuthorizaView:(AlterBlock)AlterBlock;
 

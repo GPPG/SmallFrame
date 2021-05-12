@@ -23,6 +23,7 @@
     
     GPReminderController *reminderController = [[GPReminderController alloc]init];
     
+    
     self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:reminderController];
     
     [self.window makeKeyAndVisible];

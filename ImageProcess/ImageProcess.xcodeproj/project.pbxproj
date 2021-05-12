@@ -169,9 +169,9 @@
 		E0F92B6523B4591A00295EE5 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E0F92B8023B486FD00295EE5 /* Crop */,
 				E0F92B9F23B4882F00295EE5 /* AdjustBottomView.swift */,
 				E0F92B9D23B4882700295EE5 /* AdjustTopFunctionView.swift */,
-				E0F92B8023B486FD00295EE5 /* Crop */,
 				E0F92B7523B4869F00295EE5 /* CropBottomCollectionViewCell.swift */,
 				E0F92B7623B4869F00295EE5 /* CropBottomRightView.swift */,
 				E0F92B7723B4869F00295EE5 /* CropBottomView.swift */,

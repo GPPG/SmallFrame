@@ -240,15 +240,15 @@
 		E0BB22B623B1ACCF00A6980E /* SaveManger */ = {
 			isa = PBXGroup;
 			children = (
+				E0BB22C023B1ACCF00A6980E /* FITLocalNotificationProtocol.h */,
 				E0BB232123B1B5B500A6980E /* FITPopCantainerTool.h */,
 				E0BB232023B1B5B500A6980E /* FITPopCantainerTool.m */,
 				E0BB232923B1B62000A6980E /* FITPushAuthorizationTool.h */,
 				E0BB232A23B1B62000A6980E /* FITPushAuthorizationTool.m */,
 				E0BB233523B1B6C200A6980E /* FITSetDefaultAlarmTool.h */,
 				E0BB233623B1B6C200A6980E /* FITSetDefaultAlarmTool.m */,
-				E0BB22C523B1ACE900A6980E /* ViewStatus */,
 				E0BB22B723B1ACCF00A6980E /* Reminder */,
-				E0BB22C023B1ACCF00A6980E /* FITLocalNotificationProtocol.h */,
+				E0BB22C523B1ACE900A6980E /* ViewStatus */,
 			);
 			path = SaveManger;
 			sourceTree = "<group>";
@@ -256,14 +256,14 @@
 		E0BB22B723B1ACCF00A6980E /* Reminder */ = {
 			isa = PBXGroup;
 			children = (
+				E0BB22BC23B1ACCF00A6980E /* FITAlarmTitleTool.h */,
 				E0BB22B823B1ACCF00A6980E /* FITAlarmTitleTool.m */,
 				E0BB22B923B1ACCF00A6980E /* FITSaveLocalPushMode.h */,
-				E0BB22BA23B1ACCF00A6980E /* FITSaveLocalPushModeManger.h */,
-				E0BB22BB23B1ACCF00A6980E /* FITSaveLocalPushModeTool.m */,
-				E0BB22BC23B1ACCF00A6980E /* FITAlarmTitleTool.h */,
 				E0BB22BD23B1ACCF00A6980E /* FITSaveLocalPushMode.m */,
+				E0BB22BA23B1ACCF00A6980E /* FITSaveLocalPushModeManger.h */,
 				E0BB22BE23B1ACCF00A6980E /* FITSaveLocalPushModeManger.m */,
 				E0BB22BF23B1ACCF00A6980E /* FITSaveLocalPushModeTool.h */,
+				E0BB22BB23B1ACCF00A6980E /* FITSaveLocalPushModeTool.m */,
 			);
 			path = Reminder;
 			sourceTree = "<group>";

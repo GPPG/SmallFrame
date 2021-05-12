@@ -47,7 +47,8 @@
 
     
 }
-- (void)acquirePushAuthorizationStatus:(RegisterPushSuccessfulBlock)registerPushSuccessfulBlock registerPushFailureBlock:(RegisterPushFailureBlock)registerPushFailureBlock{
+
+-(void)acquirePushAuthorizationStatus:(RegisterPushSuccessfulBlock)registerPushSuccessfulBlock registerPushFailureBlock:(RegisterPushFailureBlock)registerPushFailureBlock{
     
     self.registerPushFailureBlock = registerPushFailureBlock;
     self.registerPushSuccessfulBlock = registerPushSuccessfulBlock;
